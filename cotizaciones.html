@@ -1,0 +1,73 @@
+﻿<!doctype html>
+
+<html lang="es"
+
+<head>
+
+<meta charset="utf-8">
+
+<title>COTIZACIONES</title>
+<style>
+form
+</style>
+</head>
+
+<body bgcolor="teal">
+
+<center><font color="silVer"><h1>COTIZACIONES</h1></font></center>
+
+<form id="form" onsubmit="return display" action="post">
+
+<fieldset>
+<legend><strong><font face="arial black">Cotización De Viajes:</font></strong></legend>
+
+<p><strong>Nombre Completo:<strong><input type="text" name="nombre del cliente"></p>
+
+
+<p><strong>Incluir Paquete:</strong>
+ <input type="checkbox" name="SN" value="d">Si
+ <input type="checkbox" name="SN" value="c">No</p>
+
+<p><strong>Oferta:</strong><select name="select 1"></p>
+<option>Seleccione oferta...</option>
+<option>Oferta Platino</option>
+<option>Oferta Diamante</option>
+</select>
+
+<p><strong>Número Telefónico:</strong><input type="number" name="numero"></p>
+
+<p><strong>Fecha De salida:</strong><input type="date" id="FP" name="Fecha-P" value="AÑO-MES-DÍA" min="2020-06-16" max="*">
+
+<p><strong>Fecha De regreso:</strong><input type="date" id="FP" name="Fecha-P" value="AÑO-MES-DÍA" min="2020-06-17" max="*">
+
+<p><strong>Voletos De Niños:</strong><input type="number" name="PNR" maxlength="3" ></p>
+<p><strong>Voletos De Adulto:</strong><input type="number" name="PAR" maxlength="3" ></p>
+
+
+<p><strong>E-mail:</strong><input type="email" name="email"></p>
+
+<p><strong>Destino:</strong><select name="select 1"></p>
+<option>Seleccione Destino...</option>
+<option>La paz</option>
+<option>Cancún</option>
+<option>Chichén itzá</option>
+<option>Playa del Carmen</option>
+<option>Puerto Vallarta</option>
+<option>Mazatlán</option>
+<option>Acapulco</option>
+<option>Akumal</option>
+<option>Ixtapa</option>
+</select>
+
+
+<p><strong>Número De Abitaciones:</strong><input type="number" name="NA" maxlength="3"></p>
+
+<p>
+    <input type="submit" value="Registrar">
+</p>
+
+</fieldset>
+
+
+
+</html>
